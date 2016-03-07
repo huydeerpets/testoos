@@ -1,0 +1,10 @@
+{{#unless siteSettings.allow_solved_on_all_topics}}
+<section class='field'>
+  <div class="enable-accepted-answer">
+    <label class="checkbox-label">
+      {{input type="checkbox" checked=category.enable_outofstock_note}}
+      {{i18n 'solved.allow_outofstock_note'}}
+    </label>
+  </div>
+</section>
+{{/unless}}
